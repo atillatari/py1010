@@ -7,8 +7,9 @@ bDrivstoff = 1 * kmPerAr    # 1kr per km
 eBom = 0.1 * kmPerAr        
 bBom = 0.3 * kmPerAr
 
-eKostnad = str(traffikavgift + eForsikring + eDrivstoff + eBom)
-bKostnad = str(traffikavgift + bForsikring + bDrivstoff + bBom)
+eKostnad = traffikavgift + eForsikring + eDrivstoff + eBom
+bKostnad = traffikavgift + bForsikring + bDrivstoff + bBom
 
-print("I løpet av ett år vil en elbil koste " + eKostnad + ",-")
-print("sammenlignet vil en bensinbil koste  " + bKostnad + ",-.")
+print("I løpet av ett år vil en elbil koste " + str(eKostnad) + ",-")
+print("sammenlignet vil en bensinbil koste  " + str(bKostnad) + ",-")
+print("Differansen er " + str(round(max(bKostnad,eKostnad)-min(bKostnad,eKostnad))) + ".")
