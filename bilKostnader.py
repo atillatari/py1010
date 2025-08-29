@@ -1,3 +1,5 @@
+# Arbeidskrav 1 til Py1010 høst 2025
+
 kmPerAr = 10000                     # km/år
 traffikavgift = 8.38 * 365          # 8.38 per dag i 1 år
 eForsikring = 5000                  # kr/år
