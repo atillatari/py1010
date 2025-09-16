@@ -1,1 +1,1 @@
-Dette er readme-filen til repo-en py1010.
+Dette er små kodesnutter jeg har laget til kurset py1010 høst 2025.
