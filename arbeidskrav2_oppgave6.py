@@ -1,7 +1,5 @@
 """
 Arbeidskrav 2 - Oppgave 6
-
-Cathrine L. Fjeldstad (hei@calif.no)
 Oppdatert: Wed Nov  5 18:38:16 2025
 """
 
@@ -23,4 +21,5 @@ plt.ylabel("f(x)")
 plt.plot(x, y)
 
 # Viser grafen
+
 plt.show()
