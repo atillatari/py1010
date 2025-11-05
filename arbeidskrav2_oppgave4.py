@@ -1,7 +1,5 @@
 """
 Arbeidskrav 2 - Oppgave 4
-
-Cathrine L. Fjeldstad (hei@calif.no)
 Oppdatert: Tue Oct  7 17:57:58 2025
 """
 data = {
@@ -25,4 +23,5 @@ else:
         data[land] = [hovedstad, antall_inbyggere]
         print(data)
     else:
+
         print("Ok, takk for nå!")
