@@ -21,5 +21,4 @@ plt.ylabel("f(x)")
 plt.plot(x, y)
 
 # Viser grafen
-
 plt.show()
