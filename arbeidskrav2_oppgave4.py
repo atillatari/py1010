@@ -16,12 +16,13 @@ if land in data:
           f"{data[land][1]} mill. innbyggere i {data[land][0]}.")
     
 else:
-    svar = input("Dette landet finnes ikke i databasen. Vil du legge det til? ja/nei: ")
-    if svar =="ja":
+    svar = input("Dette landet finnes ikke i databasen. Vil du legge det til? ")
+    if svar in ("ja", "j", "J", "JA", "Ja", "Ok", "OK"):
         hovedstad = input(f"Hovedstaden i {land} er? ")
-        antall_inbyggere = input(f"Antall innbyggere i {hovedstad} er? ")
+        antall_inbyggere = input(f"Antall millioner innbyggere i {hovedstad} er? ")
         data[land] = [hovedstad, antall_inbyggere]
         print(data)
     else:
 
         print("Ok, takk for nå!")
+        
