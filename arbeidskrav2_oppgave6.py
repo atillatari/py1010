@@ -6,7 +6,7 @@ Oppdatert: Wed Nov  5 18:38:16 2025
 import numpy as np
 import matplotlib.pyplot as plt
 
-# Lager en array med x-verdier jevnt fordelt fra -10 til 10
+# Lager en array med 200 x-verdier jevnt fordelt fra -10 til 10
 x = np.linspace(-10, 10, 200)
 
 # Beregner y-verdiene for f(x) = -x^2 - 5
@@ -22,3 +22,4 @@ plt.plot(x, y)
 
 # Viser grafen
 plt.show()
+
