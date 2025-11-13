@@ -13,7 +13,9 @@ areal_figur = areal_trekant + (areal_sirkel/2)
 print(f"Figurens areal er: {areal_figur:.3f}")
 
 omkrets_sirkel = np.pi*a
+# Mellomregning for å finne ukjent legnde i trekanten, Pytagoras FTW!
 hypotenus = np.sqrt(a**2 + b**2)
 omkrets_trekant = a+b+hypotenus
+# En av sidene i trekanten er også sirkelens diameter
 omkrets_figur = omkrets_sirkel/2 + omkrets_trekant-a
 print(f"Figurens omkrets er: {omkrets_figur:.3f}")
